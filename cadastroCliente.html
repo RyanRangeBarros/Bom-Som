@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/Cadastro.css">
+  <link rel="stylesheet" href="./css/principal.css">
+</body>
+
+</html>
+
+   
+    <meta charset="UTF-8" />
+    <title>Bom som</title>
+</head>
+
+<body>
+
+    <div class="header">
+      <img class="marca" src="./image/bomSom.png" height="100px" width="110px"/>
+      <a class = "Social" href  ="https://www.facebook.com/Bom-Som-101827612092396"><img src ="./image/facebook.png" height="80px" width="70px" />
+      <a class = "Social" href ="https://www.instagram.com/bomsomrv/"><img src ="./image/insta.png" height="80px" width="70px"/>
+    </div>
+
+    <div class="navbar">
+        <a  href="index.html">HOME</a>
+                  <a href="#about">SOBRE NÓS</a>
+                  <a href="">CONTATO</a>
+                  <a href="Projetos.html">PROJETOS</a>
+                 
+        <div class="dropdown">
+          <button class="dropbtn">CADASTRO
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a class="marcado" href="cadastroCliente.html">CLIENTE</a>
+            <a href="cadastroFuncionario.html">FUNCIONARIO</a>
+            <a href="#">PROJETO</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="container" >
+            <a class="links" id="paracadastro"></a>
+            
+            
+            <div class="content">      
+             
+        
+              <!--FORMULÁRIO DE CADASTRO-->
+              <div id="cadastro">
+                <form method="post" action=""> 
+                  <h1>Cadastro De Cliente</h1> 
+                  
+                  <p> 
+                    <label for="nome_cad">Seu nome</label>
+                    <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Augusto" />
+                  </p>
+                  
+                  <p> 
+                    <label for="email_cad">Seu e-mail</label>
+                    <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+                  </p>
+                  <p> 
+                    <label for="music">Estilo de música</label><br>
+                    <select name="select">
+                        <option value="valor1">frevo</option>
+                        <option value="valor2">pop</option>
+                        <option value="valor3">rock</option>
+                        <option value="valor3">mpb</option>
+                        <option value="valor3">funk</option>
+                        <option value="valor3">forro</option>
+                        <option value="valor3" selected>outros</option>
+                      </select>
+                  </p>
+                  
+                    <label for="date">Data de nascimento</label>
+                    <input id="date" type="date"> 
+                  </p>
+                    <label for="Endereço">Seu endereço</label>
+                    <input id="Endereço" name="addrescad" required="required" type="address" placeholder="Rua"/> 
+                    <input id="Endereço" name="addrescad" required="required" type="address" placeholder="Bairro"/>
+                    <input id="Endereço" name="addrescad" required="required" type="address" placeholder="Número"/>
+                    <input id="Endereço" name="addrescad" required="required" type="address" placeholder="Complemento"/>
+                  
+                  
+                  <p> 
+                    <input type="submit" value="Cadastrar"/> 
+                  </p>
+                  
+                 
+                </form>
+              </div>
+            </div>
+          </div> 
+    </body>
+
+    </html>
+    
