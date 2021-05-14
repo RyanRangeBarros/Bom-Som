@@ -18,7 +18,7 @@
       font-family: Arial;
     }
     
-    /* Links inside the navbar */
+  
     .navbar a {
       float: left;
       font-size: 16px;
@@ -28,13 +28,13 @@
       text-decoration: none;
     }
     
-    /* The dropdown container */
+    
     .dropdown {
       float: left;
       overflow: hidden;
     }
     
-    /* Dropdown button */
+    
     .dropdown .dropbtn {
       font-size: 16px;
       border: none;
@@ -42,17 +42,17 @@
       color: white;
       padding: 14px 16px;
       background-color: inherit;
-      font-family: inherit; /* Important for vertical align on mobile phones */
-      margin: 0; /* Important for vertical align on mobile phones */
+      font-family: inherit; 
+      margin: 0; 
     }
     
-    /* Add a red background color to navbar links on hover */
+    
     .navbar a:hover, .dropdown:hover .dropbtn {
       box-shadow: inset 0px 0px 20px #2d023a;
     color: rgb(238, 11, 189);
     }
     
-    /* Dropdown content (hidden by default) */
+    
     .dropdown-content {
       display: none;
       position: absolute;
@@ -62,7 +62,7 @@
       z-index: 1;
     }
     
-    /* Links inside the dropdown */
+    
     .dropdown-content a {
       float: none;
       color: black;
@@ -72,12 +72,12 @@
       text-align: left;
     }
     
-    /* Add a grey background color to dropdown links on hover */
+  
     .dropdown-content a:hover {
       background-color: #2d023a ;
     }
+  
     
-    /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
       display: block;
     }
@@ -131,12 +131,13 @@
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+    background-color: blueviolet;
   }
   
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
+    background-color: #000205;
     color: white;
   }
   
@@ -151,7 +152,7 @@
   }
   
   .title {
-    color: grey;
+    color: rgba(228, 15, 228, 0.993);;
   }
   
   .button {
@@ -160,14 +161,14 @@
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: rgba(228, 15, 228, 0.993);
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: black;
   }
   
   @media screen and (max-width: 650px) {
@@ -205,6 +206,47 @@
     top:43%;
     right: 0;
   }
+
+  .footer{
+    width: 100%;
+    height: 260px;
+    background-color: black;
+   
+  }
+  .footer ul{
+    display: inline;
+  }
+  .logo{
+    float:left;
+    padding-left: 10%;
+  }
+  .Menu{
+    float:left;
+    padding-left: 20%;
+  }
+  .telefone{
+    float:left;
+    padding-left: 5%;
+    
+  }
+
+  .redes{
+   
+    float:left;
+    padding-left: 2%;
+  }
+  .lista{
+    padding-left: 25px;
+  }
+  .comunica{
+    padding-left: 35px;
+  }
+      
+
+      
+     
+
+
 
   
   
