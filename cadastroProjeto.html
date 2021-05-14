@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/Cadastro.css">
+  <link rel="stylesheet" href="./css/principal.css">
+</body>
+
+</html>
+
+   
+    <meta charset="UTF-8" />
+    <title>Bom som</title>
+</head>
+
+<body>
+
+    <div class="header">
+      <img class="marca" src="./image/bomSom.png" height="100px" width="110px"/>
+      <a class = "Social" href  ="https://www.facebook.com/Bom-Som-101827612092396"><img src ="./image/facebook.png" height="80px" width="70px" />
+      <a class = "Social" href ="https://www.instagram.com/bomsomrv/"><img src ="./image/insta.png" height="80px" width="70px"/>
+    </div>
+
+    <div class="navbar">
+        <a  href="index.html">HOME</a>
+                  <a href="#about">SOBRE NÓS</a>
+                  <a href="">CONTATO</a>
+                  <a href="Projetos.html">PROJETOS</a>
+                 
+        <div class="dropdown">
+          <button class="dropbtn">CADASTRO
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a  href="cadastroCliente.html">CLIENTE</a>
+            <a href="cadastroFuncionario.html">FUNCIONARIO</a>
+            <a class="marcado" href="#">PROJETO</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="container" >
+            <a class="links" id="paracadastro"></a>
+          
+            
+            <div class="content">      
+             
+        
+              <!--FORMULÁRIO DE CADASTRO-->
+              <div id="cadastro">
+                <form method="post" action=""> 
+                  <h1>Cadastro De Projeto</h1> 
+                  
+                  <p> 
+                    <label for="nome_cad">Nome do projeto</label>
+                    <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Bossa coração" />
+                  </p>
+                  
+                  <p> 
+                    <label for="Descrição_cad">Descreva seu trabalho</label><br>
+                    <textarea rows="10" cols="40" maxlength="500" id="Descrição_cad" name="Descrição_cad" required="required" type="description" placeholder="Descrição" ></textarea>
+                  </p>
+                  <p> 
+                    <label for="id">ID do funcionario</label>
+                    <input id="id" name="idCad" required="idCad" type="musica" placeholder="000-000-000-00"/> 
+                  </p>
+                  
+                    <label for="date">Data do projeto</label>
+                    <input id="date" type="date"> 
+                  </p>
+                    <label for="Endereço">endereço</label>
+                    <input id="Endereço" name="addrescad" required="required" type="address" placeholder="Rua"/> 
+                    <input id="Endereço" name="addrescad" required="required" type="address" placeholder="Bairro"/>
+                    <input id="Endereço" name="addrescad" required="required" type="address" placeholder="Número"/>
+                    <input id="Endereço" name="addrescad" required="required" type="address" placeholder="Complemento"/>
+                  
+                    <p> 
+                        <label for="id">ID do Cliente</label>
+                        <input id="id" name="idCad" required="idCad" type="musica" placeholder="000-000-000-00"/> 
+                      </p>
+                      <p> 
+                        <label for="id">ID do funcionario</label>
+                        <input id="id" name="idCad" required="idCad" type="musica" placeholder="000-000-000-00"/> 
+                      </p>
+                  
+                  <p> 
+                    <input type="submit" value="Cadastrar"/> 
+                  </p>
+                  
+                  
+                </form>
+              </div>
+            </div>
+          </div> 
+    </body>
+
+    </html>
