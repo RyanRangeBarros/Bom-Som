@@ -175,5 +175,14 @@
     -webkit-animation-name: fadeOutLeft;
     animation-name: fadeOutLeft;
   }
+  .style-music {
+    height: 35px;
+    margin-top: 16px;
+  }
+
+  .birth-date {
+    margin-bottom: 15px;
+  }
+  
   
   
